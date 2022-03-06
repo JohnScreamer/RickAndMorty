@@ -1,0 +1,57 @@
+.list-person {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+   &__card {
+      background: rgb(189, 218, 241);
+      font-size: 25px;
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+     
+     
+      margin: 10px;
+      cursor: pointer;
+      transition-duration: 0.5s;
+      border: 1px solid black;
+
+   
+
+   }
+   &__card:hover{
+     transition-duration: 0.5s;
+     transform: scale(1.1)rotate(2.5deg);
+     
+   }
+}
+.card {
+   
+   
+
+   &__name {
+      
+      padding: 10px;
+      text-align: center;
+      margin:0 auto;
+      font-size: 32px;
+      font-weight: 800;
+      // white-space: nowrap;
+      // text-overflow: ellipsis;
+      // -o-text-overflow: ellipsis;
+      // -ms-text-overflow: ellipsis;
+      // overflow: hidden;
+   }
+
+   &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
+  
+
+
+}
